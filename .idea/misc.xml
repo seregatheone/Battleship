@@ -6,6 +6,8 @@
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable-v23/splashscreen_ui.xml" value="0.1" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/splashscreen_ui.xml" value="0.1" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/fragment_single_player.xml" value="0.1" />
       </map>
     </option>
   </component>

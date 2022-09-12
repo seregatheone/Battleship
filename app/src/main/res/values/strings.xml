@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Battleship</string>
+    <string name="background">background</string>
+    <string name="single_player">Single Player</string>
 </resources>
