@@ -2,14 +2,15 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <gradient android:startColor="@color/project_dark_blue"
-                android:endColor="@color/project_white_yellow"
-                android:type="linear"
+            <gradient
+                android:startColor="@color/project_blue_simple"
                 android:centerColor="@color/project_light_blue"
+                android:endColor="@color/project_blue_simple"
+                android:type="linear"
                 android:angle="270"/>
         </shape>
     </item>
     <item android:gravity="center"
-        android:drawable="@drawable/ship_picture">
+        android:drawable="@drawable/anchor">
     </item>
 </layer-list>
