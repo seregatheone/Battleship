@@ -1,10 +1,14 @@
 package com.patproject.test.battleship.di
 
 import android.app.Application
+import android.content.Context
+import android.content.SharedPreferences
 import com.patproject.test.battleship.MainActivity
+import com.patproject.test.battleship.data.SharedPreferencesModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.Module
+import dagger.Provides
 import javax.inject.Scope
 
 @Scope
@@ -14,6 +18,8 @@ annotation class AppScope
 @Component(modules = [AppModule::class])
 interface AppComponent{
     fun inject(mainActivity: MainActivity)
+    
+    val sharedPreferences : SharedPreferences
 
     @Component.Builder
     interface Builder{
@@ -22,5 +28,8 @@ interface AppComponent{
         fun build():AppComponent
     }
 }
-@Module
-class AppModule
+@Module(includes = [SharedPreferencesModule::class])
+class AppModule{
+    @Provides
+    fun provideContext(application: Application): Context = application.applicationContext
+}
