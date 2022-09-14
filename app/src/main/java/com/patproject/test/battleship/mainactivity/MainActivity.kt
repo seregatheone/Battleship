@@ -30,9 +30,9 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onStart()
     }
 
-    override fun onDestroy() {
+    override fun onStop() {
         sharedPreferences.music = binding.toggleButtonMusic.isChecked
         sharedPreferences.sound = binding.toggleButtonSound.isChecked
-        super.onDestroy()
+        super.onStop()
     }
 }
