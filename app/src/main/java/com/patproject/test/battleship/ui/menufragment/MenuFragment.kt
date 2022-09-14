@@ -6,24 +6,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import by.kirich1409.viewbindingdelegate.viewBinding
 import com.patproject.test.battleship.R
 import com.patproject.test.battleship.databinding.FragmentMenuBinding
 
-class MenuFragment : Fragment() {
+class MenuFragment : Fragment(R.layout.fragment_menu) {
 
-    private var _binding : FragmentMenuBinding? = null
-    private val binding get()= _binding!!
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentMenuBinding.inflate(layoutInflater,container,false)
-        return binding.root
-    }
+    private val viewBinding by viewBinding(FragmentMenuBinding::bind)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.button.setOnClickListener {
+        viewBinding.button.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_singlePlayerFragment)
         }
         super.onViewCreated(view, savedInstanceState)
