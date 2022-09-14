@@ -4,6 +4,7 @@
     package="com.patproject.test.battleship">
 
     <application
+        android:name=".ProjectApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
