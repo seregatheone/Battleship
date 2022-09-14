@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".mainactivity.MainActivity">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,17 +33,25 @@
 
         <ToggleButton
             android:id="@+id/toggleButtonMusic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/music_shared_prefs_selector"
+            android:layout_marginEnd="20dp"/>
 
         <ToggleButton
             android:id="@+id/toggleButtonSound"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textOn=""
+            android:textOff=""
             app:layout_constraintEnd_toStartOf="@+id/toggleButtonMusic"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/sound_shared_prefs_selector"
+            android:layout_marginEnd="20dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
