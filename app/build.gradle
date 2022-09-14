@@ -41,6 +41,9 @@ dependencies {
     // reflection-free flavor
     implementation 'com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.6'
 
+    //viewmodels delegate
+    implementation "androidx.fragment:fragment-ktx:1.5.2"
+
     def dagger_ver = "2.43.2"
     implementation "com.google.dagger:dagger-android:$dagger_ver"
     kapt "com.google.dagger:dagger-android-processor:$dagger_ver"

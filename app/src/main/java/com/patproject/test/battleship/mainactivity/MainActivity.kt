@@ -1,9 +1,13 @@
-package com.patproject.test.battleship
+package com.patproject.test.battleship.mainactivity
 
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import androidx.activity.viewModels
 import by.kirich1409.viewbindingdelegate.viewBinding
+import com.patproject.test.battleship.R
+import com.patproject.test.battleship.appComponent
 import com.patproject.test.battleship.data.music
 import com.patproject.test.battleship.data.sound
 import com.patproject.test.battleship.databinding.ActivityMainBinding
@@ -21,8 +25,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
     }
 
     override fun onStart() {
-        //add toggle button switch
-        //add binding service
+        binding.toggleButtonMusic.isChecked = sharedPreferences.music
+        binding.toggleButtonSound.isChecked = sharedPreferences.sound
         super.onStart()
     }
 

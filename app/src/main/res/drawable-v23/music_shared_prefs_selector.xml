@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/toggle_buttons_background"/>
+    <item android:gravity="center"
+        android:width="48dp"
+        android:height="48dp"
+        android:left="@dimen/toggle_icon_margin"
+        android:right="@dimen/toggle_icon_margin"
+        android:top="@dimen/toggle_icon_margin"
+        android:bottom="@dimen/toggle_icon_margin">
+        <selector>
+            <item android:drawable="@drawable/music_symbol_icon"
+                android:state_checked="true"/>
+            <item android:drawable="@drawable/music_symbol_off_icon"
+                android:state_checked="false"/>
+        </selector>
+    </item>
+</layer-list>

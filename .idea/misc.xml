@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable-v23/music_shared_prefs_selector.xml" value="0.1" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable-v23/splashscreen_ui.xml" value="0.1" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/music_note_icon.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/music_note_off_icon.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/music_shared_prefs_selector.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/sound_shared_prefs_selector.xml" value="0.1" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/splashscreen_ui.xml" value="0.1" />
-        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/drawable/toggle_buttons_background.xml" value="0.1" />
+        <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
         <entry key="..\:/Android_ALL/Battleship/app/src/main/res/layout/fragment_single_player.xml" value="0.1" />
       </map>
