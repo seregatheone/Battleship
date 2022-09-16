@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.patproject.test.battleship.mainactivity.MainActivity
+import com.patproject.test.battleship.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashscreenActivity : AppCompatActivity() {
