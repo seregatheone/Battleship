@@ -25,9 +25,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".mainactivity.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
         </activity>
+        <service android:name=".services.MusicService"
+            android:exported="false"/>
     </application>
 
 </manifest>
