@@ -1,4 +1,4 @@
-package com.patproject.test.battleship.data
+package com.patproject.test.battleship.data.shared_preferences
 
 import android.content.SharedPreferences
 
