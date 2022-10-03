@@ -3,7 +3,7 @@ package com.patproject.test.battleship.di
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import com.patproject.test.battleship.mainactivity.MainActivity
+import com.patproject.test.battleship.MainActivity
 import com.patproject.test.battleship.data.shared_preferences.SharedPreferencesModule
 import dagger.BindsInstance
 import dagger.Component
