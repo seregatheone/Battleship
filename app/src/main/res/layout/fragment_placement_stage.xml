@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.patproject.test.battleship.ui.custom_view_elements.PlacementCellLayout
+    <com.patproject.test.battleship.ui.custom_view_elements.BattleShipView
         android:id="@+id/boardLayout"
         android:layout_width="80dp"
         android:layout_height="80dp"
