@@ -4,4 +4,6 @@
     <color name = "project_blue_simple">#5F6F94</color>
     <color name = "project_light_blue">#97D2EC</color>
     <color name = "project_white_yellow">#FEF5AC</color>
+    <color name = "project_red">#ED5454</color>
+    <color name = "project_gray">#6C6C6C</color>
 </resources>

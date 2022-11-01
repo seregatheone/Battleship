@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BattleShipView">
+        <attr name="freeCellColor" format="color"/>
+        <attr name="missedCellColor" format="color"/>
+        <attr name="shotCellColor" format="color"/>
+        <attr name="placedShipColor" format="color"/>
+        <attr name="rowsAmount" format="integer"/>
+        <attr name="columnsAmount" format="integer"/>
+    </declare-styleable>
+
+    <attr name="battleShipViewStyle" format="reference"/>
+
+</resources>

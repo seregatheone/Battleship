@@ -13,9 +13,6 @@ import com.patproject.test.battleship.databinding.FragmentSinglePlayerBinding
 class SinglePlayerFragment : Fragment(R.layout.fragment_single_player) {
     private val viewBinding by viewBinding(FragmentSinglePlayerBinding::bind)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        viewBinding.button.setOnClickListener {
-            findNavController().navigate(R.id.action_singlePlayerFragment_to_menuFragment)
-        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

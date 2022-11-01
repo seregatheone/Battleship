@@ -11,8 +11,8 @@
         android:label="fragment_menu"
         tools:layout="@layout/fragment_menu" >
         <action
-            android:id="@+id/action_menuFragment_to_singlePlayerFragment"
-            app:destination="@id/singlePlayerFragment" />
+            android:id="@+id/action_menuFragment_to_placementStageFragment"
+            app:destination="@id/placementStageFragment" />
     </fragment>
     <fragment
         android:id="@+id/singlePlayerFragment"
@@ -21,6 +21,17 @@
         tools:layout="@layout/fragment_single_player" >
         <action
             android:id="@+id/action_singlePlayerFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placementStageFragment"
+        android:name="com.patproject.test.battleship.ui.placement.PlacementStageFragment"
+        android:label="PlacementStageFragment" >
+        <action
+            android:id="@+id/action_placementStageFragment_to_singlePlayerFragment"
+            app:destination="@id/singlePlayerFragment" />
+        <action
+            android:id="@+id/action_placementStageFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
     </fragment>
 </navigation>

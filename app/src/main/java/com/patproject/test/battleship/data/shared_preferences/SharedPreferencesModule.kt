@@ -1,4 +1,4 @@
-package com.patproject.test.battleship.data
+package com.patproject.test.battleship.data.shared_preferences
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -10,7 +10,8 @@ import dagger.Provides
 class SharedPreferencesModule {
     @Provides
     @AppScope
-    fun provideSharedPreference(context: Context): SharedPreferences = context.getSharedPreferences(SETTINGS_TAG,Context.MODE_PRIVATE)
+    fun provideSharedPreference(context: Context): SharedPreferences = context.getSharedPreferences(
+        SETTINGS_TAG,Context.MODE_PRIVATE)
 
     companion object{
         const val SETTINGS_TAG = "SETTINGS"

@@ -16,7 +16,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         viewBinding.button.setOnClickListener {
-            findNavController().navigate(R.id.action_menuFragment_to_singlePlayerFragment)
+            findNavController().navigate(R.id.action_menuFragment_to_placementStageFragment)
         }
         super.onViewCreated(view, savedInstanceState)
     }

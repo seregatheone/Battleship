@@ -12,5 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="battleShipViewStyle">@style/DefaultBattleShipViewStyle</item>
+    </style>
+
+    <style name="DefaultBattleShipViewStyle">
+        <item name="freeCellColor">@color/project_white_yellow</item>
+        <item name="missedCellColor">@color/project_gray</item>
+        <item name="shotCellColor">@color/project_red</item>
+        <item name="placedShipColor">@color/project_light_blue</item>
+        <item name="columnsAmount">10</item>
+        <item name="rowsAmount">10</item>
     </style>
 </resources>
